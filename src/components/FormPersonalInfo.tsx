@@ -105,7 +105,6 @@ const FormPersonalInfo: FC<FormPersonalInfoProps> = (props) => {
             placeholder="เดือน/วัน/ปี"
             format="MM/DD/YYYY"
             // onChange={handleChangeField('dateOfBirth')}
-
             onChange={(value: any) => {
               savePersistentPersonalForm(
                 form.getFieldsValue(),
